@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: lightgray;
+}
+
+#card {
+  margin: auto;
+  display: block;
+  width: 70vw;
+  height: 89vh;
+  margin-top: 4vh;
+  border: 4px solid red;
+}
+#img {
+  width: 25vw;
+  height: 27vh;
+  position: absolute;
+  top: 36vh;
+  left: 36vw;
+  margin-left: 1.6vw;
+  margin-top: 1.999vh;
+
+  display: none;
+}
+#button {
+  color: transparent;
+  margin-top: 2vh;
+}
+#button::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+#button::before {
+  content: "Upload Your Image";
+  color: lightgray;
+  display: inline-block;
+  background: lightcoral;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: 700px;
+  font-size: 10pt;
+}
+
+#button:hover::before {
+  border: black;
+  background-color: rgb(243, 149, 149);
+}
+#button:focus {
+  outline: none;
+}
+
+/*
+width: 70vw;
+  height: 89vh;
+  */
+/*
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+  #img {
+    top: 38vh;
+  }
+}
+@media only screen and (min-width: 321px) {
+  
+  #img {
+    top: 36.3vh;
+  }
+}
+@media only screen and (max-width: 320px) {
+  
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+ 
+  #img {
+    top: 35.72vh;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  #img {
+    top: 35.9vh;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  
+  #img {
+    top: 38.3vh;
+  }
+}
+/*
+
+/*
+width: 24.2vw;
+    height: 26.6vh;
+    width: 24.2vw;
+    height: 26.6vh;
+    top: 36.6vh;
+    left: 36.4vw;
+
+
+    width: 25vw;
+  height: 27vh;
+  position: absolute;
+  top: 36vh;
+  left: 36vw;
+  margin-left: 1.6vw;
+  margin-top: 1.999vh;
+  display: none;
+    
+    
+    
+    
+    
+    */
